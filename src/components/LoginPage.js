@@ -48,7 +48,7 @@ export default function LoginPage({ onLogin }) {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-tr from-blue-100 to-pink-100 p-4">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-tr from-blue-100 p-4">
       <div className="bg-white p-6 rounded-xl shadow-lg w-80">
         <h1 className="text-2xl font-bold mb-4 text-center">
           {isRegister ? "Register" : "Login"}

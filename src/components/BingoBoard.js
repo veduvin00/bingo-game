@@ -127,7 +127,7 @@ export default function BingoCard({ player, board, initialSignatures, onLogout }
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-tr from-blue-100 to-pink-100 p-2 sm:p-4">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-tr from-blue-100 p-2 sm:p-4">
       {bingo && <Confetti />}
 
       {/* Header */}

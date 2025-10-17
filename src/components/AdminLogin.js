@@ -42,7 +42,7 @@ export default function AdminLogin({ onAdminLogin }) {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-purple-100 to-blue-100 p-4">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-purple-100 p-4">
       <div className="bg-white p-8 rounded-xl shadow-lg w-96">
         <div className="text-center mb-6">
           <div className="text-4xl mb-2">🔐</div>

@@ -103,7 +103,7 @@ export default function AdminDashboard({ admin, onLogout }) {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-100 to-blue-100 p-8">
+    <div className="min-h-screen bg-gradient-to-br from-purple-100 -100 p-8">
       <div className="max-w-4xl mx-auto">
 
         {/* New Winner Notification */}
