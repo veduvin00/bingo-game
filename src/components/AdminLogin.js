@@ -1,7 +1,7 @@
 // File: src/components/AdminLogin.jsx
 import { useState } from "react";
 
-const API_BASE = "http://localhost:5001";
+const API_BASE = process.env.REACT_APP_BINGO_API;
 
 export default function AdminLogin({ onAdminLogin }) {
   const [email, setEmail] = useState("");

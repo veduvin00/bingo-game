@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import ChangePassword from "./ChangePassword";
 
-const API_BASE = "http://localhost:5001";
+const API_BASE = process.env.REACT_APP_BINGO_API;
 
 export default function AdminDashboard({ admin, onLogout }) {
   const [leaderboard, setLeaderboard] = useState([]);

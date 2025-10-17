@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import Confetti from "react-confetti";
 import ChangePassword from "./ChangePassword";
 
-const API_BASE = "http://localhost:5001";
+const API_BASE = process.env.REACT_APP_BACKEND_API;
 const FREE_SPACE_INDEX = 12; // Center square (index 12 in 0-24 grid)
 
 export default function BingoCard({ player, board, initialSignatures, onLogout }) {

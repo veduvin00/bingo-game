@@ -1,7 +1,7 @@
 // File: src/components/ChangePassword.jsx
 import { useState } from "react";
 
-const API_BASE = "http://localhost:5001";
+const API_BASE = process.env.REACT_APP_BINGO_API;
 
 export default function ChangePassword({ userId, userName, onClose, onSuccess }) {
   const [currentPassword, setCurrentPassword] = useState("");

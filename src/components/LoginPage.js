@@ -1,7 +1,7 @@
 // File: src/components/LoginPage.jsx
 import { useState } from "react";
 
-const API_BASE = "http://localhost:5001";
+const API_BASE = process.env.REACT_APP_BINGO_API;
 
 export default function LoginPage({ onLogin }) {
   const [isRegister, setIsRegister] = useState(false);
